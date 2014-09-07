@@ -1,0 +1,111 @@
+.mse_events {
+
+	background: #e9eeef;
+}
+
+.mse_events h3.mse_title:before{
+	content: "\f145";
+	display: inline;
+	font-family: 'dashicons';
+	font-size: 25px;
+	line-height: 1.846153846;
+}
+.mse_events h3.mse_title {
+	line-height: 1.846153846;
+}
+.mse_events ul {
+
+	list-style: none;
+	padding: 0;
+}
+.mse_events ul li {
+
+	background: #fff;
+	height: 64px;
+	margin: 2em auto;
+	overflow: hidden;
+	position: relative;
+	width: 95%;
+
+}
+
+.mse_events ul li .mse_date {
+
+	float: left;
+	font-size: 11px;
+	line-height: 18px;
+	margin-left: 1em;
+	margin-top: 0.5em;
+}
+.mse_events ul li .mse_date .month {
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.mse_events ul li .mse_date .days {
+	font-size: 18px;
+	font-weight: bold;
+}
+.mse_events ul li .mse_info {
+	float: left;
+	margin-left: 2.5em;
+	width: 45%;
+}
+.mse_events ul li .mse_info h4 {
+	font-size: 16px;
+	line-height: 16px;
+	margin: 0.5em auto;
+}
+.mse_events ul li .mse_info p {
+	font-size: 11px;
+	margin: 0;
+}
+
+.mse_events ul li .mse_sponsor {
+	float: left;
+	width: 80px;
+}
+.mse_events ul li .mse_sponsor img {
+	border: 0;
+	height: auto;
+	margin: 0.5em auto;
+	width: 80px;
+}
+
+.mse_events ul li span.icon {
+	display: block;
+	float: left;
+	height: 64px;
+	width: 64px;
+}
+.mse_events ul li span.icon.seminar {
+	background: url('../img/mse_icons.png') 0 0;
+}
+.mse_events ul li span.icon.webinar {
+	background: url('../img/mse_icons.png') 0 -70px;
+}
+.mse_Events ul li span.icon.twitter {
+	background: url('../img/mse_icons.png') 0 -140px;
+}
+.mse_events ul li a.mse_button {
+	background: #6c7689;
+	color: #fff;
+	float: right;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 21px 1.5em 0 0;
+	padding: 0.2em 1em;
+	text-decoration: none;
+}
+.mse_events ul li a.mse_button:hover {
+	background: #AAA;
+}
+
+.mse_events ul li .mse_popup{
+	position: absolute;
+	z-index: 99;
+	padding: 1em;
+	background: #e9eeef;
+	width: 80%;
+	display: none;
+}
